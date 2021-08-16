@@ -27,9 +27,9 @@ body {
     --yellow-bold : #FFBD00;
     --gray : #A8AAB4;
 }
-
 .bytecoin__container{
     width: auto;
+    height: 725px;
     margin: 0 auto;
     background-color: #191D28;
 
@@ -60,15 +60,16 @@ body {
     cursor: pointer;
 }
 button{
-    margin-right: 28px;
+    margin-right: 50px;
     margin-top: 20px;
     background-color:  var(--yellow);
-    width: 142px;
-    height: 50px;
+    width: 122px;
+    height: 40px;
     color: rgb(0, 0, 0);
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     border-radius: 10px;
+    cursor: pointer;
 }
 .header__image{
     margin-right: 38px;
@@ -93,33 +94,34 @@ button{
 
 .bytecoin__main{
     width: 100%;
+    height: 625px;
     display: flex;
     justify-content: space-between;
 }
 .bytecoin__main-left{
-    width: 301px;
+    width: 251px;
     margin-right: 15px;
     margin-left: 20px;
-    margin-top: 30px;
+    margin-top: 15px;
     
 }
 .main-leftTop{
     background-color: #222631;
-    height: 580px;
+    height: 440px;
     overflow: hidden;
     border-radius: 13px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .main-leftBot{
-    height: 215px;
+    height: 195px;
 }
 .main-leftTop-content{
     text-align: center;
     margin-top: 15px;
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 400;
     color: #fff;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .main-leftTop-itemX{
     display: flex;
@@ -128,16 +130,16 @@ button{
 }
 .main-leftTop-itemX img{
     object-fit: cover;
-    height: 39px;
-    width: 39px;
+    height: 29px;
+    width: 29px;
     border-radius: 100px;
     flex-shrink: 0;
     margin-left: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .itemX-name{
     color: #fff;
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 600;
 }
 .itemX-cost{
@@ -147,10 +149,9 @@ button{
 }
 .persen{
     color: #C0394B;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     margin-right: 10px;
-    margin-top: 2px;
 }
 .main-leftBot-Bot{
     display: flex;
@@ -160,33 +161,32 @@ button{
     margin-bottom: 20px;
 }
 .bytecoin__main-centerLeft{
-    width: 550px;
+    width: 441px;
     background-color: #222631;
     overflow: hidden;
-    border-radius: 25px;
+    border-radius: 13px;
     margin-bottom: 10px;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-right: 15px;
 }
 .bytecoin__main-centerRight{
-    width: 800px;
+    width: 600px;
     background-color: #222631;
     overflow: hidden;
-    border-radius: 25px;
+    border-radius: 13px;
     margin-bottom: 10px;
-    margin-top: 30px;
-    margin-right: 15px;
+    margin-top: 15px;
+    margin-right: 35px;
 }
 .bytecoin__main-right{
     width: 291px;
     overflow: hidden;
     border-radius: 13px;
     margin-bottom: 10px;
-    margin-top: 35px;
-    margin-right: 25px;
+    margin-top: 15px;
+    margin-right: 15px;
 }
 .bytecoin__main-right img {
-    width: 100%;
-    height: calc(20%-10px);
-    margin-bottom: 15px;
+    width: 85%;
+    margin-bottom: 10px;
 }
