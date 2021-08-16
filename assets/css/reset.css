@@ -162,7 +162,6 @@ button{
 .bytecoin__main-centerLeft{
     width: 550px;
     background-color: #222631;
-    height: 775px;
     overflow: hidden;
     border-radius: 25px;
     margin-bottom: 10px;
@@ -171,7 +170,6 @@ button{
 }
 .bytecoin__main-centerRight{
     width: 800px;
-    height: 775px;
     background-color: #222631;
     overflow: hidden;
     border-radius: 25px;
@@ -181,7 +179,6 @@ button{
 }
 .bytecoin__main-right{
     width: 291px;
-    height: 775px;
     overflow: hidden;
     border-radius: 13px;
     margin-bottom: 10px;
