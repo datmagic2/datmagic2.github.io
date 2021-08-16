@@ -54,14 +54,14 @@ body {
     position: relative;
     display: inline-block;
     color: #fff;
-    font-size: 17px;
+    font-size: 14px;
     font-weight: 300;
     margin-right: 36px;
     cursor: pointer;
 }
 button{
-    margin-right: 50px;
-    margin-top: 20px;
+    margin-right: 52px;
+    margin-top: 30px;
     background-color:  var(--yellow);
     width: 122px;
     height: 40px;
@@ -70,6 +70,9 @@ button{
     font-weight: 600;
     border-radius: 10px;
     cursor: pointer;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
 }
 .header__image{
     margin-right: 38px;
