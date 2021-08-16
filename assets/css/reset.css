@@ -28,13 +28,9 @@ body {
     --gray : #A8AAB4;
 }
 
-.bytecoin{
-    width: auto;
-    height: 845px;
-}
 .bytecoin__container{
-    width: 1840px;
-    height: 945px;
+    width: auto;
+    min-height: 945px;
     margin: 0 auto;
     background-color: #191D28;
 
@@ -197,5 +193,5 @@ button{
 .bytecoin__main-right img {
     width: 100%;
     height: calc(20%-10px);
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
