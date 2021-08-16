@@ -110,13 +110,13 @@ button{
 }
 .main-leftTop{
     background-color: #222631;
-    height: 440px;
+    height: 430px;
     overflow: hidden;
     border-radius: 13px;
     margin-bottom: 5px;
 }
 .main-leftBot{
-    height: 195px;
+    height: 175px;
 }
 .main-leftTop-content{
     text-align: center;
@@ -130,6 +130,7 @@ button{
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    margin-bottom: 15px;
 }
 .main-leftTop-itemX img{
     object-fit: cover;
