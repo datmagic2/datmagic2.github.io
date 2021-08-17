@@ -35,7 +35,7 @@
     margin-right: 36px;
     cursor: pointer;
 }
-button{
+.btn-primary{
     margin-right: 56px;
     margin-top: 30px;
     background-color:  var(--yellow);
@@ -81,7 +81,6 @@ button{
 .bytecoin__main-left{
     width: 251px;
     margin-right: 15px;
-    
 }
 .main-leftTop{
     background-color: #222631;
@@ -89,32 +88,31 @@ button{
     overflow: hidden;
     border-radius: 13px;
     margin-bottom: 5px;
+    padding: 10px;
 }
 .main-leftBot{
     height: 175px;
 }
 .main-leftTop-content{
     text-align: center;
-    margin-top: 15px;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 .main-leftTop-itemX{
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
     margin-bottom: 15px;
+    margin-top: 5px;
 }
 .main-leftTop-itemX img{
     object-fit: cover;
-    height: 29px;
-    width: 29px;
+    height: 35px;
+    width: 35px;
     border-radius: 100px;
     flex-shrink: 0;
     margin-left: 20px;
-    margin-bottom: 10px;
 }
 .itemX-name{
     color: #fff;
@@ -161,4 +159,131 @@ button{
 .bytecoin__main-right img {
     width: 85%;
     margin-bottom: 5px;
+}
+/* @media screen and (max-width: 1024px){
+    .bytecoin__container{
+        background-color: #fff;
+    }
+    .header__menu-item{
+        color: #000;
+    }
+    button{
+        background-color: #F04086;
+        color: #fff;
+    }
+
+} */
+.bytecoin__main-centerLeft{
+    padding: 50px;
+}
+.centerLeft-title{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.centerLeft-des{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+.btn-choose{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color:  #27303E;
+    width: 172px;
+    height: 40px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    box-shadow: 2px 3px 18px rgb(0, 0, 0, 0.25);
+}
+.centerLeft-ideal{
+    color: var(--yellow);
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.bytecoin__main-centerRight{
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 50px;
+}
+.centerRight-content{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--gray);
+    margin-bottom: 5px;
+}
+hr{
+    margin: 0 auto;
+    width: 81px;
+    height: 4px;
+    text-decoration: none;
+    background-color: #2A303C;
+    border: 1px solid #2A303C;
+    margin-bottom: 15px;
+}
+.centerRight-titleBox{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+.btn-box{
+    background-color:  #27303E;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    box-shadow: 2px 3px 18px rgb(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+.centerRight-Box{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+}
+.BoxLeft-info{
+    background-color:  #27303E;
+    width: 160px;
+    height: 120px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    box-shadow: 2px 3px 18px rgb(0, 0, 0, 0.25);
+}
+.centerRight-BoxCenter{
+    background-color: var(--yellow);
+    width: 40px;
+    height: 40px;
+    color: #000;
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+    box-shadow: 2px 3px 18px rgb(0, 0, 0, 0.25);
 }
