@@ -300,6 +300,7 @@ hr{
     }
     .bytecoin__main-left{
         width: auto;
+    margin-right: 1px;
     }
     .main-leftTop{
         height: 235px;
@@ -318,11 +319,13 @@ hr{
         width: auto;
         height: 300px;
         margin-bottom: 10px;
+        margin-right: 1px;
     }
     .bytecoin__main-centerRight{
         width: auto;
         height: 300px;
         margin-bottom: 10px;
+        margin-right: 1px;
     }
     .BoxLeft-info{
         background-color:  #27303E;
