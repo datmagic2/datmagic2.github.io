@@ -287,3 +287,77 @@ hr{
     text-decoration: none;
     box-shadow: 2px 3px 18px rgb(0, 0, 0, 0.25);
 }
+@media screen and (max-width: 740px) {
+    .header__menu,.bytecoin__header-right{
+        display: none;
+    }
+    .bytecoin__main{
+        display: block;
+        height: auto;
+    }
+    .bytecoin__container{
+        height: auto;
+    }
+    .bytecoin__main-left{
+        width: 335px;
+    }
+    .main-leftTop{
+        height: 235px;
+    }
+    .main-leftTop-item{
+        display: flex;
+        flex-wrap: wrap
+    }
+    .main-leftTop-itemX{
+        flex: 1 0 21%;
+    }
+    .main-leftTop-itemX img{
+        margin-left: 5px;
+    } 
+    .bytecoin__main-centerLeft{
+        width: 335px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .bytecoin__main-centerRight{
+        width: 335px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+    .BoxLeft-info{
+        background-color:  #27303E;
+        width: 90px;
+        height: 70px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 10px;
+        cursor: pointer;
+        display: inline-block;
+        border: none;
+        text-decoration: none;
+        box-shadow: 2px 3px 18px rgb(0, 0, 0, 0.25);
+    }
+    .centerRight-BoxCenter{
+        background-color: var(--yellow);
+        width: 20px;
+        height: 20px;
+        color: #000;
+        text-align: center;
+        line-height: 17px;
+        font-size: 12px;
+        font-weight: 500;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-block;
+        border: none;
+        text-decoration: none;
+        box-shadow: 2px 3px 18px rgb(0, 0, 0, 0.25);
+    }
+    .bytecoin__main-right{
+        width: 391px;
+        overflow: hidden;
+        border-radius: 13px;
+        margin-bottom: 20px;
+    }
+}
